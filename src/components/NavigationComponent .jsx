@@ -32,11 +32,14 @@ const NavigationComponent = () => {
       className={`${
         isWideScreen ? "self-stretch" : ""
       } flex flex-col items-start justify-start pt-[3.75rem] px-[0rem] pb-[0rem] relative gap-[31rem] text-left text-[1rem] text-base-500-dark-secondary font-text-xsm-font-bold mq975:pt-[2.438rem] mq975:box-border`}
+      style={{
+        paddingTop: "60px",
+      }}
     >
       <div
         className={`${
           isWideScreen ? "self-stretch" : ""
-        }  flex flex-col items-start justify-start gap-[0.25rem]`}
+        } flex flex-col items-start justify-start gap-[0.25rem]`}
       >
         <button
           className={`${

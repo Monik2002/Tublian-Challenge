@@ -36,7 +36,7 @@ const DashboardPage = () => {
       <div
         className={`${
           window.innerWidth < 1024 ? "w-[1.625rem]" : "w-[12.625rem]"
-        } flex flex-col items-start justify-start pt-[1.5rem] px-[0rem] pb-[0rem] box-border mq975:hidden mq725:hidden`}
+        } flex flex-col items-start justify-start pt-[1.5rem] px-[0rem] pb-[0rem] box-border mq390:hidden`}
         style={{ width: `${navWidth}px` }}
       >
         <NavigationComponent />
@@ -47,17 +47,23 @@ const DashboardPage = () => {
           isSmallScreen ? "" : "border-solid"
         } border-base-50-dark mq725:pb-[4.25rem] mq725:box-border mq975:max-w-full mq1025:pb-[6.5rem] mq1025:box-border mq725:max-w-full`}
       >
-        <div className="self-stretch flex flex-row items-start justify-between pt-[1rem] px-[2.5rem] pb-[0.875rem] gap-[1.25rem] border-b-[1px] border-solid border-base-50-dark mq725:flex-wrap z-[99]">
+        <div
+          className={`${
+            isSmallScreen ? "" : "border-solid"
+          } self-stretch flex flex-row items-start justify-between pt-[1rem] px-[2.5rem] pb-[0.875rem] gap-[1.25rem] border-b-[1px] border-base-50-dark mq725:flex-wrap z-[99]`}
+        >
           <div className="flex flex-col items-start justify-start pt-[0.25rem] px-[0rem] pb-[0rem]">
             <b className="relative leading-[2rem] mq450:text-[1rem] mq450:leading-[1.625rem]">
               Find Developers
             </b>
           </div>
-          {isSmallScreen && (
-            <div className="absolute top-0 right-0">
-              <MobileComponent />
-            </div>
-          )}
+          <div>
+            {isSmallScreen && (
+              <div className="absolute top-0 right-0">
+                <MobileComponent />
+              </div>
+            )}
+          </div>
           <div className="relative" style={{ width: "250px" }}>
             <div
               className="rounded-3xs bg-base-50-dark flex flex-row items-start justify-center py-[0.375rem] px-[1.437rem] gap-[0.375rem] text-[1rem] border-[1px] border-solid border-base-100-dark cursor-pointer whitespace-nowrap"

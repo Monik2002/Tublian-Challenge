@@ -32,7 +32,7 @@ To get started with the Tubilian Frontend Challenge, follow these steps:
 2. **Install Dependencies**: Navigate to the project directory and install the necessary dependencies using npm or yarn:
    ```bash
    cd tubilian-frontend-challenge
-    npm install
+   npm install
 
 3. **Run the Application**: Start the development server to run the application locally:
     ```bash

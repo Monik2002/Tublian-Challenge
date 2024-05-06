@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
 @font-face {
   font-family: "SF Pro Text";
-  src: url("/public/FontsFree-Net-SFProText-Semibold.ttf");
+  src: url("./FontsFree-Net-SFProText-Semibold.ttf");
   font-weight: 600;
 }
 @font-face {
   font-family: "SF Compact Display";
-  src: url("/public/FontsFree-Net-SFCompactDisplay-Regular.ttf");
+  src: url("./FontsFree-Net-SFCompactDisplay-Regular.ttf");
   font-weight: 400;
 }
 
