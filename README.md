@@ -50,7 +50,7 @@ To get started with the Tubilian Frontend Challenge, follow these steps:
 
 ![1024px](https://github.com/Monik2002/Tublian-Challenge/assets/87751450/3a1455a7-e683-492f-b761-9319a5ab73d7)
 
-## view at 390px (Monible Display):
+## view at 390px (Mobile Display):
 
 ![390px](https://github.com/Monik2002/Tublian-Challenge/assets/87751450/4b453f4a-eebb-43ca-90d3-18a6988fb5c3)
 
