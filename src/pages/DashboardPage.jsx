@@ -8,12 +8,12 @@ import MobileComponent from "../components/MobileComponent";
 const DashboardPage = () => {
   const [selectedOption, setSelectedOption] = useState("high streetcred");
   const [showDropdown, setShowDropdown] = useState(false);
-  const [navWidth, setNavWidth] = useState(window.innerWidth < 1024 ? 32 : 200); // Default width based on window size
+  const [navWidth, setNavWidth] = useState(window.innerWidth < 1025 ? 32 : 200); // Default width based on window size
   const [isSmallScreen, setIsSmallScreen] = useState(false);
 
   useEffect(() => {
     const handleResize = () => {
-      setNavWidth(window.innerWidth < 1024 ? 32 : 200); // Update width based on window size
+      setNavWidth(window.innerWidth < 1025 ? 32 : 200); // Update width based on window size
       setIsSmallScreen(window.innerWidth < 391);
     };
 
