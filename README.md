@@ -38,3 +38,19 @@ To get started with the Tubilian Frontend Challenge, follow these steps:
     ```bash
     npm run dev
 
+## view at 1440px:
+
+![1440px](https://github.com/Monik2002/Tublian-Challenge/assets/87751450/64ee9ed5-47dc-4e74-96fe-51c5b16b05c8)
+
+## view at 1200px:
+
+![1200px](https://github.com/Monik2002/Tublian-Challenge/assets/87751450/99f394de-0c15-4dc1-8593-4bb2a43bf258)
+
+## view at 1024px:
+
+![1024px](https://github.com/Monik2002/Tublian-Challenge/assets/87751450/3a1455a7-e683-492f-b761-9319a5ab73d7)
+
+## view at 390px (Monible Display):
+
+![390px](https://github.com/Monik2002/Tublian-Challenge/assets/87751450/4b453f4a-eebb-43ca-90d3-18a6988fb5c3)
+
