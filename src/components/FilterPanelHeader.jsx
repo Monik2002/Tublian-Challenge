@@ -58,7 +58,7 @@ const FilterPanelHeader = () => {
           )}
           <div className="w-[14.3rem] rounded-3xs bg-base-50-dark box-border overflow-hidden shrink-0 flex flex-row items-start justify-start py-[0.125rem] px-[0.25rem] text-base-900-dark border-[1px] border-solid border-base-100-dark">
             <button
-              className={`rounded-3xs py-[0.5rem] px-[0.812rem] bg-base-100-dark cursor-pointer text-white`}
+              className={"rounded-3xs py-[0.5rem] px-[0.812rem] bg-base-100-dark cursor-pointer text-white"}
               style={{
                 background:
                   selectedOption === "fullTime"
@@ -72,7 +72,7 @@ const FilterPanelHeader = () => {
               </b>
             </button>
             <button
-              className={`rounded-3xs py-[0.5rem] px-[0.812rem] bg-base-100-dark cursor-pointer text-white`}
+              className={"rounded-3xs py-[0.5rem] px-[0.812rem] bg-base-100-dark cursor-pointer text-white"}
               style={{
                 background:
                   selectedOption === "freelance"
